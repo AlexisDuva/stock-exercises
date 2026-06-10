@@ -1,5 +1,7 @@
 package main
 
+//https://leetcode.com/problems/ransom-note/?envType=study-plan-v2&envId=top-interview-150
+
 func canConstruct(ransomNote string, magazine string) bool {
 	lettersCount := map[rune]int{}
 	for _, c := range magazine {

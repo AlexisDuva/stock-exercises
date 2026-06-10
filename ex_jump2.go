@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+//https://leetcode.com/problems/jump-game-ii/?envType=study-plan-v2&envId=top-interview-150
+
 func jump(nums []int) int {
 	if len(nums) == 1 {
 		return 1

@@ -4,6 +4,8 @@ import (
 	"strings"
 )
 
+//https://leetcode.com/problems/merge-strings-alternately/?envType=study-plan-v2&envId=leetcode-75
+
 func mergeAlternately(word1 string, word2 string) string {
 	var sb strings.Builder
 	i := 0

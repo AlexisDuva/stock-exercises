@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+//https://leetcode.com/problems/search-insert-position/?envType=study-plan-v2&envId=top-interview-150
+
 func searchInsert(nums []int, target int) int {
 	min := 0
 	max := len(nums) - 1

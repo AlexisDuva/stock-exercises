@@ -1,19 +1,6 @@
 package main
 
-func removeElementKeepOrder(nums []int, val int) int {
-	k := len(nums)
-	for i := 0; i < k; {
-		if nums[i] == val {
-			for j := i; j < k-1; j++ {
-				nums[j] = nums[j+1]
-			}
-			k--
-		} else {
-			i++
-		}
-	}
-	return k
-}
+//https://leetcode.com/problems/remove-element/?envType=study-plan-v2&envId=top-interview-150
 
 func removeElement(nums []int, val int) int {
 	p1 := 0

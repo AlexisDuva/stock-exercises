@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+//https://leetcode.com/problems/jump-game/?envType=study-plan-v2&envId=top-interview-150
+
 func canJump(nums []int) bool {
 	if len(nums) == 1 {
 		return true

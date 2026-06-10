@@ -2,6 +2,8 @@ package main
 
 import "strings"
 
+//https://leetcode.com/problems/word-pattern/?envType=study-plan-v2&envId=top-interview-150
+
 func wordPattern(pattern string, s string) bool {
 	m := map[rune]string{}
 	st := strings.Split(s, " ")

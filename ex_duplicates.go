@@ -1,6 +1,8 @@
 package main
 
-func RemoveDuplicates(nums []int) int {
+//https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=study-plan-v2&envId=top-interview-150
+
+func removeDuplicates(nums []int) int {
 	k := 0
 	p1 := 0
 	p2 := 1

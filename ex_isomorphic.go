@@ -1,5 +1,7 @@
 package main
 
+//https://leetcode.com/problems/isomorphic-strings/description/?envType=study-plan-v2&envId=top-interview-150
+
 func isIsomorphic(s string, t string) bool {
 	m := map[rune]rune{}
 	for i, r := range s {

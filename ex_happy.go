@@ -6,6 +6,8 @@ import (
 	"strconv"
 )
 
+//https://leetcode.com/problems/happy-number/description/?envType=study-plan-v2&envId=top-interview-150
+
 func isHappy(n int) bool {
 	m := map[int]int{}
 	sum := n
